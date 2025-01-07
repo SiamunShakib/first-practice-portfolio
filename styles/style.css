@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.primery-text{
+    color: #FD6E0A;
+}
+.primery-btn{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 30px;
+    border-radius: 5px;
+    border: none;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+.section-description{
+    font-size: 16px;
+    color: #474747;
+
+}
+
+
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 150px;
+}
+
+.nav-title{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#474747;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+/* banner section style */
+.banner{
+    display: flex;
+    background-color: #fd6f0a1a;
+    justify-content: space-between;
+    padding: 0px 0px 0px 10px;
+    align-items: center;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+    background-size: contain, 500px;
+}
+.banner > img{
+    width:380px;
+}
+.banner-content{
+    max-width: 480px;
+    margin: 0px 35px 0px 100px;
+}
+.banner-content h4{
+    font-size: 40px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner-content h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: black;
+}
+.banner-content p{
+    margin: 15px 0px;
+}
+
+
+
+
+
+
+/* about section style */
+.about > div{
+    background-color: #fd6f0a1a;
+    margin: 100px 120px;
+    padding: 80px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.item-title{
+    margin-top: 20px;
+}
+.item-description{
+    font-weight: bold;
+    margin-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* service section style */
+.service{
+    text-align: center;
+    padding: 50px auto;
+    margin-bottom: 100px;
+}
+
+.service > p{
+    margin: 10px 20%;
+
+}
+
+.service > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    margin: 0px 5%;
+    padding: 20px;
+    background-color:#fd6f0a09 ;
+}
+.service-item{
+    box-shadow: 0px 6px 20px rgba(227, 226, 226, 0.897);
+    border-radius: 10px;
+    padding: 40px 20px;
+    background-color: white;
+    text-align: start;
+
+}
+.service-item h4{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+
+
+
+
+
+
+
+/* resume section style */
+
+
+.resume{
+    text-align: center;
+    padding: 50px 5%;
+}
+
+.resume-container{
+    display: flex;
+    gap: 40px;
+    text-align: start;
+    margin: 80px 
+}
+
+
+
+.resume-column-title{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.experience h4{
+    font-size: 22px;
+    margin: 10px 0px;
+}
+.experience-title{
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 20px;
+}
+.experience-subtitle{
+    margin: 10px 0px;
+    color: gray;
+}
+
+
+
+hr{
+    border:1px solid gray;
+}
+
+
+
+
+
+
+
+
+/* contact section style */
+.contact{
+    padding: 100px 10%;
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+    background-color: #fd6f0a1a ;
+}
+
+
+.contact-item{
+    border-color: red;
+}
+
+.contact-item > form input{
+    width: 90%;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: none;
+}
+.contact-item > form textarea{
+    width: 90%;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    height: 150px;
+    border: none;
+}
+
+.contact-item >p{
+    margin: 20px 150px 20px 0px;
+}
+
+.contact-item ul{
+    list-style: none;
+}
+.contact-item ul li{
+    display: inline;
+    margin-right: 20px;
+}
